@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior:smooth;
+    font-family: 'Roboto Slab', serif;
+    
+}
+li{
+    border-radius: 10px;
+   
+}
+a{
+    color: white;
+    border-radius: 10px;   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 8%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position:fixed;
+    width: 83.85%;
+    height: 10px;
+    z-index: 999;
+}
+label{
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+.navbar-list li{
+    display: inline-block;
+    padding: 0px 25px;
+    margin: 0px 10px;
+}
+
+.navbar-list li a{
+  transition: all 0.3s ease 0s;
+}
+.navbar-list li a:hover,.navbar-list li:hover{
+    color: black;
+    background-color: #17BDA3;
+}
+#background{
+  background-image: url('https://cdn.wallpapersafari.com/97/73/lrF7O8.png');
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+
+  animation-name: animate;
+  animation-direction:alternate-reverse;
+  animation-duration: 8s;
+  animation-fill-mode:forwards;
+  animation-iteration-count:infinite ;
+  animation-play-state:running ;
+  animation-timing-function:ease-in-out;
+}
+@keyframes animate{
+    0%{
+        background-image: url('https://wallpaperaccess.com/full/2579546.jpg');
+    }
+    50%{
+        background-image: url('https://miro.medium.com/max/2000/1*ObZQQZJeFB3oOo-hLwpdVQ.jpeg');
+    }
+    100%{
+        background-image: url('https://cdn.wallpapersafari.com/97/73/lrF7O8.png');
+    }
+
+}
+h2{
+    height: 40vh;
+    color: transparent;
+    padding-top: 10px;
+}
+h1{
+    color: white;
+    padding-left: 29%;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+h3{
+    color: white;
+    padding-left: 38%;
+    padding-bottom: 10px;
+}
+#head-h3{
+    padding-top: 50px;
+    color: white;
+    font-size: 40px;
+}
+h4{
+    padding-top: 10px;
+    padding-left: 47%;
+    padding-bottom: 10px;
+    color: white;
+}
+#all-bgimg{
+  background-image: url('https://stocksnap.io/img/inline-feature-bg.jpg?1496102021');
+  background-size: cover; 
+  height: 130vh; 
+}
+#head button{
+  border-style: none;
+  border-radius: 15px;
+  background-color: #17BDA3;
+  color: black;
+  padding: 10px 20px;
+  margin-left: 45%;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+#head button:hover{
+  transform: scale(1.15);
+  z-index:1;
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#loader{
+  margin: 10% 0px;
+  box-sizing: 10%;
+}
+.profile h1{
+  padding: 10px 10px;
+  opacity: 100%;
+}
+.profile h4{
+  padding: 0px 10px;
+  opacity: 100%;
+}
+.name:hover,.email:hover{
+  color: black;
+}
+.avatar {
+  border-radius: 50%;
+  opacity: 100%;
+}
+.avatar:hover{
+  transform: scale(1.10);
+  z-index:1;
+  cursor: pointer;
+
+}
+.profile {
+  border-radius: 5%;
+  background-color: #17BDA3;
+  padding: 30px 10px;
+  width: 25%;
+  height: 50%;
+  text-align: center;
+  opacity: 0.8;
+  margin: 20px 50px;
+  opacity: 70%;
+}
+.profile:hover{
+  transform: scale(1.10);
+  z-index:1;
+  opacity: 100%;
+}
+#all-bgimg1{
+  background-image: url('https://stocksnap.io/img/inline-feature-bg.jpg?1496102021');
+  background-size: cover; 
+}
+#foot-p p{
+  margin-left: 37%;
+  padding: 10px 0px;
+  color: white;
+  font-size: larger;
+}
+#foot-p h5{
+  margin-left: 42%;
+  color: white;
+  font-size: larger;
+}
