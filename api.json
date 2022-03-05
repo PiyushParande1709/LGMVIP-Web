@@ -1,0 +1,61 @@
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "raisoni@ghrce.net",
+      "first_name": "G.H. Raisoni College of Engg.",
+      "users" : [ "CSE", "AI", "IT" , "ETC", "Civil","Mech."],
+      "avatar": "https://bit.ly/3tuSAsq"
+    },
+    {
+        "id": 2,
+        "email": "ycce@gmail.net",
+        "first_name": "YCCE Nagpur",
+        "users" : [ "CSE", "AI", "IT" , "ETC", "Civil","Mech."],
+        "avatar": "https://bit.ly/3tuSAsq"
+      },
+      {
+        "id": 3,
+        "email": "ramdeobaba@gmail.net",
+        "first_name": "Ramdeobaba Nagpur",
+        "users" : [ "CSE", "AI", "IT" , "ETC", "Civil","Mech."],
+        "avatar": "https://bit.ly/3tuSAsq"
+      },
+      {
+        "id": 4,
+        "email": "vnit@gmail.net",
+        "first_name": "VNIT Nagpur",
+        "users" : [ "CSE", "AI", "IT" , "ETC", "Civil","Mech."],
+        "avatar": "https://bit.ly/3tuSAsq"
+      },
+      {
+        "id": 5,
+        "email": "iiitnagpur@gmail.net",
+        "first_name": "IIIT Nagpur",
+        "users" : [ "CSE", "AI", "IT" , "ETC", "Civil","Mech."],
+        "avatar": "https://bit.ly/3tuSAsq"
+      },
+      {
+        "id": 6,
+        "email": "gcoen@gmail.net",
+        "first_name": "Government College College of Engg.",
+        "users" : [ "CSE", "AI", "IT" , "ETC", "Civil","Mech."],
+        "avatar": "https://bit.ly/3tuSAsq"
+      },
+      {
+        "id": 7,
+        "email": "raisoni@ghrce.net",
+        "first_name": "G.H. Raisoni College of Engg.",
+        "users" : [ "CSE", "AI", "IT" , "ETC", "Civil","Mech."],
+        "avatar": "https://bit.ly/3tuSAsq"
+      }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
